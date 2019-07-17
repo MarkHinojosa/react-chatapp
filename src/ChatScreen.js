@@ -43,7 +43,7 @@ class ChatScreen extends Component {
                             console.log(user);
                             this.setState({
                                 usersWhoAreTyping: [...this.state.usersWhoAreTyping, user.name],
-                            }, ()=> console.log(this.state.usersWhoAreTyping))
+                            }, () => console.log(this.state.usersWhoAreTyping))
                         },
                         onUserStoppedTyping: user => {
                             this.setState({
@@ -87,7 +87,7 @@ class ChatScreen extends Component {
                 flex: 1,
             },
             whosOnlineListContainer: {
-                width: '300px',
+                width: '30%',
                 flex: 'none',
                 backgroundColor: '#2c303b',
                 color: 'white',
@@ -103,7 +103,7 @@ class ChatScreen extends Component {
             <div style={styles.container}>
                 <div style={styles.chatContainer}>
                     <aside style={styles.whosOnlineListContainer}>
-                        <WhosOnlineList/>
+                        <WhosOnlineList currentUser={this.state.currentUser} users={this.state.currentRoom.users} />
                     </aside>
                     <section style={styles.chatListContainer}>
                         <MessageList
