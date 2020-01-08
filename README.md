@@ -1,4 +1,4 @@
-![chatApp](/gh-assets/chatApp.png)
+![chatApp](/gh-Assets/chatApp.png)
 
 A general chat app
 
