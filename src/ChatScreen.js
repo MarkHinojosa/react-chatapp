@@ -130,8 +130,7 @@ const styles = {
     width: "85%",
     display: "flex",
     flexDirection: "column",
-    height: "100%",
-    marginBottm: "1%"
+    height: "100%"
   }
 };
 

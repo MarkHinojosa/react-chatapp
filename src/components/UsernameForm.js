@@ -22,9 +22,19 @@ class UsernameForm extends Component {
   render() {
     return (
       <div>
-        <div>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: "column"
+          }}
+        >
           <h2 style={{ marginBottom: "5%" }}>Welcome to my Allchat! </h2>
-          <h3 style={{ marginBottom: "1%" }}>Please enter your usename</h3>
+          <h3 style={{ marginBottom: "1%" }}>
+            Please enter your usename to get started
+          </h3>
           <form onSubmit={this.onSubmit}>
             <input
               type="text"

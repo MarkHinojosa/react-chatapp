@@ -45,14 +45,22 @@ export default class MessageList extends Component {
 const styles = {
   container: {
     overflowY: "scroll",
-    flex: 1
+    flex: 1,
+    paddingBottom: 1
   },
   ul: {
     listStyle: "none"
   },
   li: {
-    marginTop: 13,
-    marginBottom: 13
+    paddingTop: 13,
+    paddingBottom: 13,
+    borderBottomColor: "gray",
+    borderBottomWidth: 1,
+    borderTopWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderStyle: "dotted",
+    marginLeft: 5
   },
   senderUsername: {
     fontWeight: "bold"

@@ -38,7 +38,7 @@ export default class SendMessageForm extends Component {
             placeholder="Type Message Here"
             onChange={this.onChange}
             value={this.state.text}
-            style={{ width: "100%" }}
+            style={{ width: "100%", padding: 15 }}
           />
         </form>
       </div>
