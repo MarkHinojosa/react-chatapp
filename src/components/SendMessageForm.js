@@ -9,9 +9,7 @@ export default class SendMessageForm extends Component {
     this.onSubmit = this.onSubmit.bind(this);
     this.onChange = this.onChange.bind(this);
   }
-  componentDidMount() {
-    console.log(this.props);
-  }
+  componentDidMount() {}
 
   onSubmit(e) {
     e.preventDefault();

@@ -40,7 +40,6 @@ class ChatScreen extends Component {
               });
             },
             onUserStartedTyping: user => {
-              console.log(user);
               this.setState(
                 {
                   usersWhoAreTyping: [
@@ -63,7 +62,6 @@ class ChatScreen extends Component {
       })
       .then(currentRoom => {
         this.setState({ currentRoom }, () =>
-          console.log(this.state.currentRoom.id)
         );
       })
       .catch(error => console.error("error", error));
@@ -77,7 +75,6 @@ class ChatScreen extends Component {
   }
 
   sendTypingEvent = () => {
-    console.log(this.state.currentRoom.id);
     this.state.currentUser
       .isTypingIn({ roomId: this.state.currentRoom.id })
       .catch(error => console.error("error", error));
