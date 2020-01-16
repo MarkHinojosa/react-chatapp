@@ -8,4 +8,4 @@ Tech stack:
 - Node.js
 - Express
 - Pusher
-- Deployed at Netlify: https://hungry-rosalind-aebd74.netlify.com
+- Deployed on Netlify: https://hungry-rosalind-aebd74.netlify.com
