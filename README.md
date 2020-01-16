@@ -1,6 +1,6 @@
 ![chatApp](/gh-Assets/chatApp.png)
 
-A general chat app
+A simple chat app.
 
 Tech stack:
 
@@ -8,3 +8,4 @@ Tech stack:
 - Node.js
 - Express
 - Pusher
+- Deployed at Netlify: https://hungry-rosalind-aebd74.netlify.com
